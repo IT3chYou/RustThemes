@@ -1,0 +1,106 @@
+{
+    "name": "Yasir Neon Code",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#090A0F",       // Kod yazdığın ana ekranın arka planı (Çok koyu, şık bir siyah/lacivert)
+        "sideBar.background": "#05060A",      // Sol taraftaki dosya gezgini menüsünün arka planı (Biraz daha koyu)
+        "activityBar.background": "#000000",  // En soldaki ikonların olduğu ince çubuğun arka planı (Tam siyah)
+        "terminal.background": "#090A0F",     // Terminalin arka planı
+        "editorGroupHeader.tabsBackground": "#05060A", // Üstteki sekme (tab) alanının arkası
+        "tab.activeBackground": "#090A0F",    // Açık olan sekmenin arka planı
+        "tab.inactiveBackground": "#05060A"   // Aktif olmayan sekmelerin arka planı
+    },    
+
+
+
+     "tokenColors": [
+        {
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "keyword.other",
+                "keyword.other.fn.rust",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#39FF14"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.function.rust",
+                "meta.function-call",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "scope": [
+                "variable",
+                "variable.other",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#FF79C6" 
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.quoted.double",
+                "string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "#FF5555" 
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric",
+                "constant.numeric.integer",
+                "constant.numeric.float"
+            ],
+            "settings": {
+                "foreground": "#51A0FF" 
+            }
+        },
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#6272A4"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.name.type.class",
+                "support.type"
+            ],
+            "settings": {
+                "foreground": "#39FF14"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type.struct",
+                "entity.name.type.struct.rust",
+                "entity.name.type.enum",
+                "entity.name.type.enum.rust",
+                "storage.type.struct",
+                "storage.type.enum"
+            ],
+            "settings": {
+                "foreground": "#FFB86C",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}

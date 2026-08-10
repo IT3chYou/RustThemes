@@ -1,5 +1,5 @@
 {
-    "name": "Yasir Neon Code",
+    "name": "Rust Theme 1", // This is the name of theme
     "type": "dark",
     "colors": {
         "editor.background": "#090A0F",       // Kod yazdığın ana ekranın arka planı (Çok koyu, şık bir siyah/lacivert)

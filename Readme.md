@@ -327,4 +327,4 @@ code --install-extension my-neon-theme-1.0.1.vsix --force
 
 ## Preview
 
-![My Neon Theme Preview](preview.png)
+![My Neon Theme Preview](c1.png)
